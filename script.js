@@ -27,4 +27,10 @@ block.addEventListener('dblclick', function(){
         event.preventDefault()
         block.style.background = 'yellow'
         })
+        block.addEventListener('mousedown', function(){
+            block.style.background = 'purple'
+        })
+        block.addEventListener('mouseup', function(){
+            block.style.background = 'green'
+        })
 block.style.background = 'black'
