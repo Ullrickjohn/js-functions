@@ -15,3 +15,16 @@ width: 400px;
 height: 400px;
 border: 2px solid black;
 }
+.link{
+font-size: 45px;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+display: flex;
+justify-content: center;
+}
+.link:hover{
+color: indigo;
+transition: 0.5s;
+
+}
